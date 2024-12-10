@@ -1,6 +1,6 @@
 {
   "name": "Narwhals",
-  "image": "ghcr.io/astral-sh/uv:alpine",
+  "image": "mcr.microsoft.com/devcontainers/python",
 
   "customizations": {
     "codespaces": {

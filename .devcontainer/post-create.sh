@@ -2,6 +2,8 @@
 
 # Commands from https://github.com/narwhals-dev/narwhals/blob/main/CONTRIBUTING.md
 
+# Install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
 # Install Python 3.12
 uv python install 3.12
 # Create and activate a virtual environment
