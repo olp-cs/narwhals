@@ -1,0 +1,14 @@
+{
+  "name": "Narwhals",
+  "image": "ghcr.io/astral-sh/uv:alpine",
+
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "CONTRIBUTING.md"
+      ]
+    }
+  },
+
+  "postCreateCommand": "./.devcontainer/post-create.sh"
+}
